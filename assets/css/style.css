@@ -64,6 +64,14 @@ p {
     border-radius: 100px !important;
 }
 
+.myauto {
+    margin-right: revert !important;
+}
+
+.navbar .brand {
+    margin: auto;
+}
+
 .w-lg {
     min-width: 150px;
 }
@@ -148,6 +156,7 @@ p {
     border-radius: 20px;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 .portfolio .portfolio-container .portfolio-item .content-holder {
