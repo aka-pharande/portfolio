@@ -20,6 +20,21 @@ p {
     font-size: 65px;
 }
 
+@media (max-width: 480px) {
+    .subtitle {
+        font-size: 11px;
+    }
+
+    .title {
+        font-size: 16px !important;
+    }
+
+    .fa-xl {
+        font-size: 1em !important;
+    }
+}
+
+
 .info {
     color: #6c757d;
     font-size: calc(13px + (14 - 13) * ((100vw - 300px) / (1300 - 300)));;
@@ -236,6 +251,13 @@ p {
 .lb-image {
     width: auto !important;
     height: 80vh !important;
+}
+
+@media (max-width: 480px) {
+    .lb-image {
+        width: 90vw !important;
+        height: auto !important;
+    }
 }
 
 pre {
