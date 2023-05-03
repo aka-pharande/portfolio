@@ -536,3 +536,15 @@ pre .code {
 .about-section .about-card:last-child {
     border-right: none;
 }
+
+@media (max-width: 480px) {
+    .lightbox {
+        position: fixed !important;
+        left: 0 !important;
+        top: 0 !important;
+        bottom:0 !important;
+        right:0 !important;
+        padding-top: 30vh;
+        overflow: auto;
+    }
+}
